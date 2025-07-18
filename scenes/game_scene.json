@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "name": "Default Game Scene",
+    "version": "1.0",
+    "description": "The default ARPG game scene with enemies, obstacles, and health pickups"
+  },
+  "player": {
+    "spawn_point": {"x": 0, "y": 0, "z": 0},
+    "speed": 5.0,
+    "health": 100.0,
+    "max_health": 100.0
+  },
+  "entities": {
+    "enemies": [
+      {
+        "id": "enemy_1",
+        "position": {"x": 8, "y": 0, "z": 3},
+        "health": 50.0,
+        "speed": 2.0
+      },
+      {
+        "id": "enemy_2",
+        "position": {"x": -8, "y": 0, "z": -3},
+        "health": 50.0,
+        "speed": 5.0
+      },
+      {
+        "id": "enemy_3",
+        "position": {"x": 0, "y": 0, "z": 10},
+        "health": 50.0,
+        "speed": 2.0
+      }
+    ],
+    "obstacles": [
+      {
+        "id": "box_1",
+        "type": "box",
+        "position": {"x": 3.5, "y": 0, "z": 2.5},
+        "size": {"x": 1.0, "y": 1.0, "z": 1.0},
+        "color": "brown"
+      },
+      {
+        "id": "box_2",
+        "type": "box",
+        "position": {"x": -4.5, "y": 0, "z": 1.5},
+        "size": {"x": 1.0, "y": 1.0, "z": 1.0},
+        "color": "brown"
+      },
+      {
+        "id": "box_3",
+        "type": "box",
+        "position": {"x": 2.5, "y": 0, "z": -3.5},
+        "size": {"x": 1.0, "y": 1.0, "z": 1.0},
+        "color": "brown"
+      },
+      {
+        "id": "box_4",
+        "type": "box",
+        "position": {"x": -2.5, "y": 0, "z": -4.5},
+        "size": {"x": 1.0, "y": 1.0, "z": 1.0},
+        "color": "brown"
+      },
+      {
+        "id": "box_5",
+        "type": "box",
+        "position": {"x": 5.5, "y": 0, "z": -1.5},
+        "size": {"x": 1.0, "y": 1.0, "z": 1.0},
+        "color": "brown"
+      },
+      {
+        "id": "box_6",
+        "type": "box",
+        "position": {"x": -3.5, "y": 0, "z": 4.5},
+        "size": {"x": 1.0, "y": 1.0, "z": 1.0},
+        "color": "brown"
+      },
+      {
+        "id": "box_7",
+        "type": "box",
+        "position": {"x": 1.5, "y": 0, "z": 5.5},
+        "size": {"x": 1.0, "y": 1.0, "z": 1.0},
+        "color": "brown"
+      },
+      {
+        "id": "box_8",
+        "type": "box",
+        "position": {"x": -5.5, "y": 0, "z": -2.5},
+        "size": {"x": 1.0, "y": 1.0, "z": 1.0},
+        "color": "brown"
+      },
+      {
+        "id": "box_9",
+        "type": "box",
+        "position": {"x": 4, "y": 0, "z": 4},
+        "size": {"x": 1.0, "y": 1.0, "z": 1.0},
+        "color": "brown"
+      },
+      {
+        "id": "box_10",
+        "type": "box",
+        "position": {"x": -1.5, "y": 0, "z": -5.5},
+        "size": {"x": 1.0, "y": 1.0, "z": 1.0},
+        "color": "brown"
+      },
+      {
+        "id": "cylinder_1",
+        "type": "cylinder",
+        "position": {"x": -6, "y": 0, "z": 3},
+        "radius": 0.3,
+        "height": 0.2,
+        "color": "darkgreen"
+      },
+      {
+        "id": "cylinder_2",
+        "type": "cylinder",
+        "position": {"x": 6, "y": 0, "z": 2},
+        "radius": 0.3,
+        "height": 0.2,
+        "color": "darkgreen"
+      },
+      {
+        "id": "cylinder_3",
+        "type": "cylinder",
+        "position": {"x": 3, "y": 0, "z": -6},
+        "radius": 0.3,
+        "height": 0.2,
+        "color": "darkgreen"
+      },
+      {
+        "id": "cylinder_4",
+        "type": "cylinder",
+        "position": {"x": -4, "y": 0, "z": -3},
+        "radius": 0.3,
+        "height": 0.2,
+        "color": "darkgreen"
+      },
+      {
+        "id": "cylinder_5",
+        "type": "cylinder",
+        "position": {"x": 0, "y": 0, "z": 7},
+        "radius": 0.3,
+        "height": 0.2,
+        "color": "darkgreen"
+      },
+      {
+        "id": "cylinder_6",
+        "type": "cylinder",
+        "position": {"x": 7, "y": 0, "z": 0},
+        "radius": 0.3,
+        "height": 0.2,
+        "color": "darkgreen"
+      }
+    ],
+    "health_pickups": [
+      {
+        "id": "health_pickup_1",
+        "position": {"x": 3, "y": 0, "z": 3},
+        "heal_amount": 25.0,
+        "radius": 0.3
+      }
+    ]
+  }
+}
